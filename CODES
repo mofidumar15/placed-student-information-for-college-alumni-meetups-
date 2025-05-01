@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+#include <string>
+using namespace std;
+
+class student {
+    public:
+    string name ;
+    string department ;
+    string skills ;
+    string placed_company ;
+    double salary ;
+    int passed_year;
+    void change_department(string new_department){
+        department = new_department;
+    }
+};
+
+int main() {
+    student s1;
+    s1.name = "MOFID UMAR";
+    s1.department = "ELCTRICAL AND ELECTRONICS ENGINEERING";
+    s1.skills = "C++ , DATA STRUCTURES AND ALGORITHMS , COMPUTER NETWORKS , DATA BASE MANAGEMENT SYSTEM AND ANDROID DEVELOPMENT ETC";
+    s1.placed_company = "MICROSOFT";
+    s1.salary = 1000000.00 ;
+    s1.passed_year = 2027 ;
+    
+    
+    cout<<"student 1 name : "<<s1.name<<endl;
+    cout<<"student 1 is from department  : "<<s1.department<<endl;
+    cout<<"student 1 have skills  : "<<s1.skills<<endl;
+    cout<<"student 1 placed in company  : "<<s1.placed_company<<endl;
+    cout<<"student 1 got a salary package  : "<<s1.salary<<" LPA"<<endl;
+    cout<<"student 1 passed out in year  : "<<s1.passed_year<<endl;
+    
